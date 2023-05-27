@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My New Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Condensed:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #0b021e;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: #0e061d;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        text-decoration: none;
+        color: rgb(157, 157, 240);
+        font-size: 1.05rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftsection {
+        /* background-color: red; */
+        font-size: 3rem;
+      }
+      .rightsection img {
+        margin: 30px 0;
+        width: 80%;
+      }
+      .purple {
+        color: rgb(161, 108, 210);
+      }
+      #element {
+        color: rgb(238, 142, 238);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+        height: 100vh;
+      }
+      .secondsection h1 {
+        font-size: 2rem;
+      }
+      .text-gray {
+        color: gray;
+      }
+      main hr {
+        border: 0;
+        background-color: #26326f;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .secondsection .box {
+        width: 80vw;
+        height: 2px;
+        background: white;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 130px;
+      }
+      .image-top {
+        width: 43px;
+        position: relative;
+        top: -46px;
+        right: 40px;
+      }
+      .image-top3 {
+        width: 29px;
+        position: relative;
+        top: -47px;
+        right: 40px;
+      }
+      .image-top1 {
+        width: 44px;
+        position: relative;
+        top: -37px;
+        right: 39px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 70px;
+        width: 150px;
+      }
+      .vertical-desc {
+        position: relative;
+        width: 150px;
+        color: gray;
+        top: 85px;
+        font-size: 12px;
+      }
+      .vertical-desc b {
+        font-size: 12px;
+        color: rgb(202, 186, 186);
+      }
+      footer {
+        background-color: #0f1535;
+        height: 100px;
+      }
+      .footer {
+        display: flex;
+        padding: 23px 123px;
+      }
+      .first {
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Karamat's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/"> Home</a></li>
+            <li><a href="/"> About</a></li>
+            <li><a href="/"> Services</a></li>
+            <li><a href="/"> Projects</a></li>
+            <li><a href="/"> Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi! My name is <span class="purple">Karamat Ely</span>
+          <div>and i am a Passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection"><img src="img/pngwing.com.png" alt="" /></div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="text-gray">What i have done so far</span>
+        <h1>Past Certifications</h1>
+        <div class="box">
+          <div class="vertical">
+            <img src="img/html.png.png" alt="" class="image-top1" />
+            <div class="vertical-title">HTML Developer 2021-Current</div>
+            <div class="vertical-desc">
+              As an HTML developer since 2021, I have successfully completed
+              over 10 projects, showcasing my expertise in crafting dynamic and
+              visually appealing web experiences. With a keen eye for detail and
+              a deep understanding of HTML5, CSS, and JavaScript, I have created
+              websites that not only meet clients' specific requirements but
+              also exceed their expectations.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="img/css.png" alt="" class="image-top" />
+            <div class="vertical-title">CSS Designer 2021-Current</div>
+            <div class="vertical-desc">
+              As a CSS designer since 2021, I have passionately immersed myself
+              in the world of web design, creating multiple projects for
+              personal use that showcase my creativity and expertise. With a
+              strong focus on aesthetics and attention to detail, I have been
+              able to bring life to websites through stunning visual
+              experiences.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="img/java.png" alt="" class="image-top" />
+            <div class="vertical-title">Basic understanding with Java</div>
+            <div class="vertical-desc">
+              As a developer with a basic understanding of Java, While I may be
+              at the early stages of my Java journey, I have successfully
+              completed several projects that demonstrate my dedication to
+              learning and improving my programming abilities.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="img/js.png" alt="" class="image-top3" />
+            <div class="vertical-title">JavaScript Developer 2022-Current</div>
+            <div class="vertical-desc">
+              In my journey as a JavaScript developer, I have built an
+              impressive portfolio of diverse projects that showcase my
+              expertise in creating dynamic and interactive web applications.
+              With a solid understanding of JavaScript.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="img/video editor.png" alt="" class="image-top" />
+            <div class="vertical-title">Video Editor (2015-2022)</div>
+            <div class="vertical-desc">
+              In my video Editing Carieer i have worked on Lot of projects for
+              Youtube as well as for some other use i have helped a lot of
+              youtubers to create their projects i have also Experience in using
+              <b>Adobe Premier pro</b> i have a good command on
+              <b>Photoshop</b> Also
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="img/Node js.png" alt="" class="image-top" />
+            <div class="vertical-title">Currently Working on Node js</div>
+            <div class="vertical-desc">
+              As an aspiring Node.js developer, I am currently honing my skills
+              and gaining practical experience in building scalable and
+              efficient web applications. Although I am in the early stages of
+              my Node.js journey, I have already embarked on exciting projects
+              that highlight my dedication to mastering this powerful runtime
+              environment.
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="footer">
+          <div class="first">Karamat Ely's Developer portfolio</div>
+          <div class="second"></div>
+          <div class="third"></div>
+          <div class="fourth"></div>
+        </div>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Video Editor", "Web Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  </body>
+</html>
